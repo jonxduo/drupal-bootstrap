@@ -10,7 +10,6 @@
 ?>
 <?php 
 $site_name=variable_get('site_name');
-$site_sloganname=variable_get('site_slogan');
 ?>
 <div class="navbar navbar-default p_toolbar" role="navigation">
   <!-- Brand and toggle get grouped for better mobile display -->
