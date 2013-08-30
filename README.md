@@ -53,7 +53,9 @@ https://github.com/jonxduo/drupal-bootstrap.git
   </li>
   <li>
     add:
-<pre>base theme = bootstrap</pre>
+<pre>
+base theme = bootstrap
+</pre>
     in the info file of the sub-theme
   </li>
 <ul>
