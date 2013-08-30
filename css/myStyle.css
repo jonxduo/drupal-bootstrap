@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:300,700);
+
+table {width:100%;}
+table td {padding:7px;}
+table th {padding:7px;}
+table th.checkbox {display:table-cell; margin:0px;}
+table td.checkbox {display:table-cell; margin:0px;}
+table td.checkbox input[type="checkbox"] {margin-left:0px;}
+table#blocks td {padding:15px;}
+.form-control {width:auto; max-width:100%;}
+.alert .close {right:0px;}
+#page{padding-top:10px; border-top:1px solid #ddd;}
+.breadcrumb{background:none;}
+
+#branding {
+	background:#f9f9f9;
+	/*background-image: -moz-linear-gradient(#f9f9f9, #f3f3f3) !important;
+	background-image: -webkit-linear-gradient(#f9f9f9, #f3f3f3) !important;
+	background-image: linear-gradient(#f9f9f9, #f3f3f3) !important;*/
+}
+
+#toolbar{ box-shadow:0px 0px 0px rgba(0,0,0,0); border-bottom:1px solid #ddd;
+	background-image: -moz-linear-gradient(#f9f9f9, #f3f3f3) !important;
+	background-image: -webkit-linear-gradient(#f9f9f9, #f3f3f3) !important;
+	background-image: linear-gradient(#f9f9f9, #f3f3f3) !important;
+}
+
+#toolbar div.toolbar-menu {background:none;}
+
+#toolbar div.toolbar-menu ul li a {line-height:25px; color:#777; font-weight:bold;}
+#toolbar div.toolbar-menu ul li a:hover, #toolbar div.toolbar-menu ul li.active-trail a, #toolbar div.toolbar-menu ul li.active-trail a:hover {background:none; color:#428bca; text-shadow:none;}
+
+
+#toolbar-home li a {background:#777; margin-top:2px;}
+#toolbar-home li a:hover, #toolbar-home li a.active {background:#428bca!important; margin-top:2px;}
+
+#toolbar-user {padding-left:15px; border-left:1px solid #fff; box-shadow:-1px 0px 0px #ddd;}
+
+.wrapCont {padding:0 15px !important;}
+
+.nav.nav-tabs {float:right; border-bottom:none; margin-top: 30px;}
+
+div.admin-panel{background:#f3f3f3; border:1px solid #ddd; margin-bottom:15px; padding:5px;}
+div.admin-panel h3 {padding-left:15px; padding-right:15px; text-transform: uppercase; font-size:1.2em; font-weight: bold;}
+
+dt:first-child{border-top:none;}
+dt {border-top:1px solid #ddd; padding:10px; padding-bottom:0px;}
+dd {padding:10px; padding-top:0px;}
+
+fieldset.collapsible {padding-bottom:30px; margin-bottom:30px;}
+
+.exposed-filters .filters{padding:10px;}
+.form-actions {padding:10px 20px 20px;}
+
+.content:after, .content:before, .wrapCont:after, .wrapCont:before, ul.action-links:after, ul.action-links:before {content:''; clear:both; display:block;}
+.page-title{float:left;}
+
+body.toolbar{padding-top:0px !important;}
+.navbar{margin-bottom:0px; padding:5px;}
+.navbar a{border-radius:5px; margin:0px !important; margin-right:5px !important;}
+.navbar-header{width:100%;}
+.navbar-header>.navbar-nav{width:100%;}
+
+#toolbar-user{display:block; float:right !important;}
+
+.p_toolbar {font-family: 'Nunito', sans-serif !important;}
+.p_toolbar .navbar-brand{background:url(../img/pomilio-small.png) no-repeat center left; padding-left:40px; border-right:1px solid #ddd; border-radius:0px;}
+
+.ui-dialog {z-index:1001;}
+
+span.label {color:#888!important; line-height:17px;}
+
+fieldset.collapsible {background:#efefef; border-bottom:2px solid #ddd; padding-bottom:0px;}
+fieldset.collapsible legend {background:#efefef; padding:10px; margin-bottom:0px;}
+
+ul.action-links {padding:0px;}
+ul.action-links li {display:inline; list-style:none; float:left;padding:0px;}
+ul.action-links li a{display:block; padding:5px 15px; line-height:20px; border-radius:15px; background:#428BCA; color:#fff; margin-right:10px;}
+
+#views-display-menu-tabs .add {display:none;}
