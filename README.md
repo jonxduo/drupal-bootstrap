@@ -52,10 +52,8 @@ https://github.com/jonxduo/drupal-bootstrap.git
     install the main theme
   </li>
   <li>
-    add:<br/>
-    <pre>
-      base theme = bootstrap
-    </pre><br/>
+    add:
+<pre>base theme = bootstrap</pre>
     in the info file of the sub-theme
   </li>
 <ul>
